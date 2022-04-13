@@ -1,0 +1,60 @@
+* {
+  /*  padding: 0;
+    margin: 0; */
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+img {
+  width: 300px;
+}
+
+.ingredient {
+  border: 2px solid #d5d5d5;
+  background: #e4f7e4;
+}
+
+.ingredient ul:nth-of-type(1) {
+  background: #add8e6;
+  list-style-type: square;
+}
+
+.ingredient ul:nth-of-type(2) {
+  background: #90ee90;
+  list-style-type: circle;
+}
+
+.ingredient ul:nth-of-type(3) {
+  background: #ffa502;
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+.recepie a {
+  color: #ff2a34;
+  text-decoration: none;
+}
+.recepie a:hover {
+  color: green;
+}
+
+.recepie1 a {
+  color: #84bfff;
+  text-decoration: none;
+}
+
+.recepie1 a:hover {
+  color: green;
+}
